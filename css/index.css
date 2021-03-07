@@ -1,0 +1,405 @@
+body{
+    height: 100%;
+}
+/* 顶部容器 */
+#top-wrapper{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(36, 36, 36);
+}
+/* 顶部内部容器 */
+#top-wrapper #top-inner{
+    width: 1100px;
+    height: 70px;
+    /* line-height: 70px; */
+    margin: 0 auto;
+    position: relative;
+}
+/* 顶部左侧 */
+#top-inner #top-left{
+    width: 750px;
+    height: 70px;
+    line-height: 70px;
+    /* background-color: rgb(95, 148, 130); */
+}
+
+#top-left #top-nav li{
+    float: left;
+    font-size: 15px;
+    /* background-color: aquamarine; */
+}
+#top-left #top-nav li a{
+    display: flex;
+    justify-content: center;
+}
+#top-nav #pt i{
+    color: rgb(194,12,12);
+    position: absolute;
+    top: 17px;
+    right: 365px;
+}
+#top-left #top-nav #logo{
+    float: left;
+    width: 30px;
+    font-size: 35px;
+    color: rgb(230,0,38);
+    margin-left: 5px;
+}
+#top-left #top-nav #logofont{
+    float: left;
+    width: 120px;
+    margin-left: 5px;
+    font-size: 22px;
+    margin-right: 25px;
+}
+#logofont a{
+    color: rgb(242, 242, 242);
+}
+#top-left #top-nav #pt{
+    width: 90px;
+    float: left;
+    
+}
+#top-nav #pt a{
+    color: rgb(189, 186, 186);
+}
+
+#top-nav #pt:hover a{
+    color: rgb(245, 235, 235);
+    background-color: rgb(0, 0, 0);
+}
+
+/* 顶部左侧 */
+#top-inner #top-right{
+    width: 370px;
+    height: 70px;
+    /* background-color: salmon; */
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+#top-right #searchbox{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 10px;
+}
+
+#top-right #info li{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 10px;
+}
+#info #second a{
+    color: rgb(102,102,102);
+
+}
+#info #first1 a{
+    color: rgb(202, 200, 200);
+    border: 1px solid rgba(242, 242, 242, 0.356);
+    height: 20px;
+    padding: 7px;
+    border-radius: 10%;
+}
+
+#searchbox input{
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+}
+#info #first1:hover a{
+    color: aliceblue;
+    border: 1px solid rgba(242, 242, 242, 0.767);
+}
+#info #second:hover a{
+    color: rgba(240, 248, 255, 0.822);
+}
+
+/* 顶部下方 */
+#top-bt{
+    width: 100%;
+    height:35px;
+    background-color: rgb(194,12,12);
+}
+#top-bt #nav{
+    width: 600px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    /* background-color: antiquewhite; */
+    left: 460px;
+    
+}
+#nav ul li{
+    float: left;
+    margin-left: 40px;
+    position: relative;
+}
+#nav ul li a{
+    color: aliceblue;
+    padding: 5px 10px;
+}
+#nav i{
+    position: absolute;
+    color: rgb(194,12,12);
+    top: -13px;
+    left: 18px;
+    font-size: 20px;
+}
+#nav ul .ff:hover a{
+    /* border: 1px solid rgba(155, 9, 9, 0); */
+    background-color: rgb(155,9,9);
+    border-radius: 50px;
+}
+#nav ul li:hover a{
+    /* border: 1px solid rgba(155, 9, 9, 0); */
+    background-color: rgb(155,9,9);
+    border-radius: 50px;
+}
+
+/* 轮播图 */
+.outWrapper{
+    width: 100%;
+    height: 285px;
+    background-color: rgba(150, 144, 144, 0.644);
+    position: relative;
+}
+.outWrapper i{
+    position: absolute;
+    color: rgb(239,239,242);
+    font-size: 50px;
+    padding: 5px 5px;
+}
+.outWrapper .left{
+    top: 122px;
+    left: 200px;
+}
+.outWrapper .right{
+    top: 122px;
+    right: 200px;
+}
+.outWrapper i:hover{
+    background-color: rgba(0, 0, 0, .3);
+}
+#outer{
+    width: 983px;
+    height: 285px;            
+    margin: 0 auto;
+    /* background-color: rgba(210, 162, 255, 0); */
+    position: relative;
+    overflow: hidden;
+}
+#imglist{
+    /* 去除项目符号 */
+    list-style: none;
+    /* 设置ul宽度（用js控制） */
+    /* width: 2600px; */
+    /* 开启绝对定位 */
+    position: absolute;
+    /* 设置偏移量,每520px显示下一张 */
+    /* left: -520px; */
+}
+#imglist li{
+    float: left;
+    /* 设置左右外边距 */
+    margin: 0 1px;
+}
+img{
+    width: 985px;
+}
+
+/* 设置导航按钮 */
+#navdiv{
+    position: absolute;
+    /* 设置位置 */
+    bottom: 15px;
+    /* js设置居中效果 */
+    /* left: 39%; */
+    /* left: 197px; */
+}
+#navdiv a{
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(176, 243, 185);
+    /* 设置透明 */
+    opacity: 0.7;
+    /* 兼容ie8透明 */
+    filter: alpha(opacity=70);
+    margin: 5px;
+    border-radius: 50%;
+}
+#navdiv a:hover{
+    background-color: rgba(243, 194, 34, 0.884);
+}
+
+
+/* 主体容器 */
+#mainWrapper{
+    width: 983px;
+    height: 100%;
+    background-color: rgb(250, 245, 238);
+    margin: 0 auto;
+    border: 1px solid rgba(102, 102, 102, 0.5);
+}
+#topNav{
+    width: 730px;
+    height: 100%;
+    /* background-color: aqua; */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#mainTopLeft{
+    margin-left: 10px;
+}
+#mainTopLeft ul{
+    display: flex;
+    flex-direction: row; 
+    /* flex-wrap: nowrap; */
+    border-bottom: 2px solid rgb(193,13,12);
+}
+#mainTopLeft ul li{
+    margin: 0 10px;
+    height: 40px;
+    line-height: 40px;
+}
+#mainTopLeft ul li a{
+    color: rgb(102, 102, 102);
+}
+#mainTopLeft ul li a:nth-child(1):hover{
+    text-decoration: underline;
+}
+#mainTopLeft ul .line{
+    margin: 0 6px;
+    height: 40px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, .3);
+}
+#mainTopLeft i{
+    color:rgb(193,13,12);
+    font-size: 20px;
+}
+#mainTopLeft #first a{
+    margin: 5px;
+    font-size: 20px;
+}
+
+/* 主体-顶部-导航条-右侧 */
+#mainTopLeft .lastli{
+    margin-left: 202px;
+}
+#mainTopLeft .lastli i{
+    font-size: 8px;
+}
+
+/* 主体左侧封面 */
+#cover{
+    width: 730px;
+    height: 100%;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+#cover ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 450px;
+}
+#cover ul li{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    align-content: space-between;
+}
+
+#cover img{
+    width: 140px;
+}
+
+/* 右侧信息栏 */
+#mainRight{
+    width: 270px;
+    height: 610px;
+    /* background-color: rgb(179, 162, 162); */
+    float: right;
+    margin-top: -523px;
+    border: 1px solid rgba(102, 102, 102, 0.5);
+    border-top: none;
+}
+#userinfo{
+    height: 125px;
+    border-radius: 2px;
+    background: linear-gradient(145deg, #bec3c5, #b7bec2);
+    box-shadow:  0 0 2px #9aafba;
+
+}
+#userinfo span{
+    display: inline-block;
+    margin: 25px;
+}
+#userinfo button{
+    background-color: rgb(203,13,20);
+    color: aliceblue;
+    margin-left: 85px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 470px;
+    font-size: 17px;
+}
+#mainRight img{
+    width: 62px;
+}
+/* 歌手列表容器 */
+#mainRight #singlist{
+    height: 610px;
+    width: 240px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+/* 歌手列表 */
+#singlist #top{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.5);
+    /* margin: 0 auto; */
+    padding-top: 8px;
+}
+#top span{
+    font-size: 12px;
+}
+#top a{
+    float: right;
+    font-size: 13px;
+}
+#singlist ul{
+    width: 100%;
+    height: 446px;
+    background-color: beige;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+#singlist ul li{
+    width: 265px;
+    height:75px;
+    /* float: left; */
+    margin: 10px 0;
+}
+#singlist ul li a{
+    display: block;
+
+
+}
+
+
+
+
+

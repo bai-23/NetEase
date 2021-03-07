@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css"><!-- 引入重置样式表 -->
+    <link rel="stylesheet" href="./font-fa/css/all.css"><!-- 引入图标字体库 -->
+    <link rel="stylesheet" href="./css/base.css"><!-- 引入当前页面样式表 -->
+    <link rel="stylesheet" href="./css/index.css"><!-- 引入公共样式表 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+</head>
+<body>
+    <!-- 创建顶部容器 -->
+    <header id="top-wrapper">
+        <!-- 顶部内部容器 -->
+        <div id="top-inner">
+            <!-- 顶部左侧 -->
+            <div id="top-left">
+                <!-- 导航条 -->
+                <ul id="top-nav">
+                    <li id="logo"><i class="fab fa-pinterest-square"></i></li>
+                    <li id="logofont"><a href="javascript:;">网抑云音乐</a></li>
+                    <li id="pt" class="pt1 active"><a href="javascript:;" >发现抑音乐</a></li>
+                    <li id="pt"><a href="javascript:;">我的抑音乐</a></li>
+                    <li id="pt"><a href="javascript:;">朋友抑</a></li>
+                    <li id="pt"><a href="javascript:;">抑商城</a></li>
+                    <li id="pt"><a href="javascript:;">音乐抑人</a></li>
+                    <li id="pt">
+                        <a href="javascript:;">
+                            下载客户端
+                            <i class="fas fa-fire-alt"></i>
+                        </a>
+                        
+                    </li>
+                </ul>
+            </div>
+            <!-- 顶部右侧 -->
+            <div id="top-right">
+                <!-- 表单搜索框 -->
+                <div id="searchbox">
+                    <!-- <i class="fas fa-search"></i> -->
+                    <input type="text" placeholder="    音乐/视频/电台/用户">
+                </div>
+                <ul id="info">
+                    <li id="first1"><a href="javascrpt:;" >创抑作者中心</a></li>
+                    <li id="second"><a href="javascrpt:;">登陆</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </header>
+
+    <!-- 顶部下方容器 -->
+    <div id="top-bt">
+        <div id="nav">
+            <ul>
+                <li class="ff active" id="f1">
+                    <i class="fas fa-caret-up"></i>
+                    <a href="javascript:; ">推荐</a>
+                </li>
+                <li><a href="javascript:;">排行榜</a></li>
+                <li><a href="javascript:;">歌单</a></li>
+                <li><a href="javascript:;">主播电台</a></li>
+                <li><a href="javascript:;">歌手</a></li>
+                <li><a href="javascript:;">新碟上架</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 轮播图 -->
+    <div class="outWrapper">
+        <i class="fas fa-chevron-left left"></i>
+        <i class="fas fa-chevron-right right"></i>
+        <div id="outer">
+            <!-- 创建ul，用于放置图片 -->
+            <ul id="imglist">
+                <li>
+                    <img src="img/109951165211945733.jpg" alt="">
+                </li>
+                <li>
+                    <img src="img/109951165212637404.jpg" alt="">
+                </li>
+                <li>
+                    <img src="img/109951165212653903.jpg" alt="">
+                </li>
+                <li>
+                    <img src="img/109951165212658003.jpg" alt="">
+                </li>
+                <li>
+                    <img src="img/109951165212781633.jpg" alt="">
+                </li>
+                <li>
+                    <img src="img/109951165212836971.jpg" alt="">
+                </li>
+                <!-- <li>
+                    <img src="img/109951165211945733.jpg" alt="">
+                </li> -->
+            </ul>
+            <!-- 创建导航按钮 -->
+            <div id="navdiv">
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+                <!-- <a href="javascript:;"></a> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 主体容器 -->
+    <div id="mainWrapper">
+        <!-- 顶部导航条 -->
+        <div id="topNav">
+            <!-- 左侧 -->
+            <div id="mainTopLeft">
+                <ul>
+                    <li id="first">
+                        <i class="fas fa-fire"></i>
+                        <a href="javascript:;">
+                            热门推荐
+                        </a>
+                    </li>
+                    <li><a href="javascript:;">华语</a></li>
+                    <span class="line">|</span>
+                    <li><a href="javascript:;">流行</a></li>
+                    <span class="line">|</span>
+                    <li><a href="javascript:;">摇滚</a></li>
+                    <span class="line">|</span>
+                    <li><a href="javascript:;">民谣</a></li>
+                    <span class="line">|</span>
+                    <li><a href="javascript:;">电子</a></li>
+                    <li class="lastli">
+                        <a href="javascript:;">更多</a>
+                        <i class="fas fa-arrow-right"></i>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <!-- 左侧封面 -->
+        <div id="cover">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/1.jpg" alt="">
+                    </a>                        
+                    <a href="#">
+                        <span id="coverInfo">[VIP专享]一周新歌推荐</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/2.jpg" alt="">
+                    </a>                        
+                    <a href="#">
+                        <span id="coverInfo">「Alternative R&B」<br>无与伦比的丝滑感</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/3.jpg" alt="">
+                    </a>                        
+                    <a href="#">
+                        <span id="coverInfo">听上此歌单那就是巅峰<br>赛最靓的仔</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/4.jpg" alt="">
+                    </a>                        
+                    <a href="#">
+                        <span id="coverInfo">我想给电影院复工泼点<br>冷水</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/1.jpg" alt="">
+                    </a>                        
+                    <a href="#">
+                        <span id="coverInfo">[VIP专享]一周新歌推荐</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/2.jpg" alt="">
+                    </a>                        
+                    <a href="#">
+                        <span id="coverInfo">[VIP专享]一周新歌推荐</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/3.jpg" alt="">
+                    </a>                        
+                    <a href="#">
+                        <span id="coverInfo">[VIP专享]一周新歌推荐</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/4.jpg" alt="">
+                    </a>                        
+                    <a href="#">
+                        <span id="coverInfo">[VIP专享]一周新歌推荐</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右侧信息栏 -->
+        <div id="mainRight">
+            <!-- 顶部用户登陆框 -->
+            <div id="userinfo">
+                <span>登录网易云音乐，可以享受无限收<br>藏的乐趣，并且无限同步到手机</span>
+                <br>
+                <button>用户登陆</button>
+            </div>
+            <!-- 歌手列表容器 -->
+            <div id="singlist">            
+                <!-- 歌手列表 -->
+                <div id="top">
+                    <span>入驻歌手</span>
+                    <a href="#">
+                        查看全部
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./img/5.jpg" alt="">
+                            <h1>张惠妹aMEI</h1>
+                            <span>台湾歌手张惠妹</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./img/5.jpg" alt="">
+                            <h1>张惠妹aMEI</h1>
+                            <span>台湾歌手张惠妹</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./img/5.jpg" alt="">
+                            <h1>张惠妹aMEI</h1>
+                            <span>台湾歌手张惠妹</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./img/5.jpg" alt="">
+                            <h1>张惠妹aMEI</h1>
+                            <span>台湾歌手张惠妹</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./img/5.jpg" alt="">
+                            <h1>张惠妹aMEI</h1>
+                            <span>台湾歌手张惠妹</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="js/tools.js"></script>
+<script src="js/index.js"></script>
+</html>
